@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_forms_textareas",
+  "info": {
+    "displayName": "textarea",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "validationText": {
+      "type": "string"
+    }
+  }
+}

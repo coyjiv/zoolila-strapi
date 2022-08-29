@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_options",
+  "info": {
+    "displayName": "option",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

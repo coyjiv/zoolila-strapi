@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_flex_small_articles",
+  "info": {
+    "displayName": "flex-small-article",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "zooLila": {
+      "type": "string",
+      "default": "ZooLila",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "— це зооательє для ваших улюбленців. Ми орієнтуємось на виготовлення одягу для собак, бандажів, фіксаторів кінцівок, ортезів, бандажного одягу для собак за індивідуальними замовленнями. ",
+      "maxLength": 186
+    },
+    "home_dogs_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-dogs-slide.home-dogs-slide"
+    }
+  }
+}

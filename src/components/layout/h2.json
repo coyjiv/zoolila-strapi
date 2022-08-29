@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_layout_h2s",
+  "info": {
+    "displayName": "ServiceSection",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "card": {
+      "displayName": "smallServices",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.small-services",
+      "required": true
+    },
+    "orderNow": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button-filled",
+      "required": true
+    },
+    "discoverMore": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button-filled",
+      "required": true
+    }
+  }
+}

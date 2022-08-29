@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_forms_inputs",
+  "info": {
+    "displayName": "input",
+    "icon": "scroll",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "validationText": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

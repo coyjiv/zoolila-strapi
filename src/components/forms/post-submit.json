@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_forms_post_submits",
+  "info": {
+    "displayName": "postSubmit",
+    "icon": "grin-wink"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

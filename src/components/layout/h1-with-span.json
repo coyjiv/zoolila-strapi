@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_h1_with_spans",
+  "info": {
+    "displayName": "h1-with-span",
+    "icon": "receipt"
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "string",
+      "default": "Ми тут аби піклуватись про ваших менших ",
+      "required": true
+    },
+    "span": {
+      "type": "string",
+      "default": "друзів.",
+      "required": true
+    }
+  }
+}

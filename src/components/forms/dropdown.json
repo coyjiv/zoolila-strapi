@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_forms_dropdowns",
+  "info": {
+    "displayName": "dropdown",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dropdown_option": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dropdown-option.dropdown-option"
+    },
+    "validationText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_posts_post_small_previews",
+  "info": {
+    "displayName": "post-small-preview",
+    "icon": "receipt"
+  },
+  "options": {},
+  "attributes": {
+    "blog_post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-post.blog-post"
+    }
+  }
+}
