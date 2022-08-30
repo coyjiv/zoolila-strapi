@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_forms_order_forms",
+  "info": {
+    "displayName": "orderForm",
+    "icon": "marker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Форма замовлення та визначення вартості пошиття виробу для собаки"
+    },
+    "inputComponent": {
+      "displayName": "input",
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.input",
+      "required": true
+    },
+    "dropdownComponent": {
+      "displayName": "dropdown",
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.dropdown"
+    },
+    "textarea": {
+      "displayName": "textarea",
+      "type": "component",
+      "repeatable": false,
+      "component": "forms.textarea"
+    },
+    "postSubmitContent": {
+      "displayName": "postSubmit",
+      "type": "component",
+      "repeatable": false,
+      "component": "forms.post-submit"
+    },
+    "postButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button-filled"
+    }
+  }
+}

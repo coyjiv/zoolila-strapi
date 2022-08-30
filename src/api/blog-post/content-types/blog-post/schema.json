@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_posts",
+  "info": {
+    "singularName": "blog-post",
+    "pluralName": "blog-posts",
+    "displayName": "Blog-post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "urlSlug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "orderForm": {
+      "displayName": "orderForm",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "forms.order-form"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    }
+  }
+}

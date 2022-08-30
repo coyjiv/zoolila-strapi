@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Корисні статті",
+      "required": true
+    },
+    "blogPreview": {
+      "displayName": "post-small-preview",
+      "type": "component",
+      "repeatable": true,
+      "component": "posts.post-small-preview",
+      "required": true
+    }
+  }
+}

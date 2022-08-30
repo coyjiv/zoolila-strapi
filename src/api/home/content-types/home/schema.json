@@ -1,0 +1,109 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "article": {
+      "displayName": "flex-small-article",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.flex-small-article",
+      "required": true
+    },
+    "home_dogs_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-dogs-slide.home-dogs-slide"
+    },
+    "h1": {
+      "displayName": "h1-with-span",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.h1-with-span",
+      "required": true
+    },
+    "FirstSection": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "layout.flex-small-article",
+        "layout.h1-with-span",
+        "layout.button-filled"
+      ],
+      "required": true
+    },
+    "SecondSection": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "layout.h2"
+      ],
+      "required": true
+    },
+    "UsefulArticles": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "layout.title"
+      ],
+      "required": true
+    },
+    "Reviews": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "layout.review-component"
+      ]
+    },
+    "ContactSection": {
+      "displayName": "Contacts",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "forms.contacts"
+    }
+  }
+}

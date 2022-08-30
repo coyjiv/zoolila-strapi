@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_paw_texts",
+  "info": {
+    "displayName": "pawText",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

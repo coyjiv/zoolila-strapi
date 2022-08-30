@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_contact_details",
+  "info": {
+    "displayName": "contactDetails",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Зв’язок з нами:"
+    }
+  }
+}

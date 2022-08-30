@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_forms_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Контакти"
+    },
+    "sectionContacts": {
+      "displayName": "contactDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.contact-details"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button-filled",
+      "required": true
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.button-filled"
+    },
+    "socialLink": {
+      "displayName": "socialLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "forms.social-link"
+    },
+    "title2": {
+      "type": "string",
+      "required": true,
+      "default": "Підписуєтесь на нас в соц.мережах:"
+    }
+  }
+}

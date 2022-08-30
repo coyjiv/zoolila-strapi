@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dropdown_options",
+  "info": {
+    "singularName": "dropdown-option",
+    "pluralName": "dropdown-options",
+    "displayName": "dropdown-option",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "dropdown": {
+      "displayName": "option",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "data.option",
+      "required": true
+    }
+  }
+}

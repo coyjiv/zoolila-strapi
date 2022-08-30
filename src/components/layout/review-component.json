@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_review_components",
+  "info": {
+    "displayName": "ReviewComponent",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Відгуки"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "Ми клієнтоорієнтовані по максимуму, тому завжди прагнемо зробити вас щасливими.  Дякуємо вам усім за теплі слова!"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
+    }
+  }
+}

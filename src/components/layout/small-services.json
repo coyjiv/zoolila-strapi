@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_small_services",
+  "info": {
+    "displayName": "smallServices",
+    "icon": "compress",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "serviceName": {
+      "type": "string",
+      "required": true
+    },
+    "largeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
