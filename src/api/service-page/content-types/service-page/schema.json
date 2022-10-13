@@ -26,16 +26,6 @@
       "relation": "oneToMany",
       "target": "api::product.product"
     },
-    "MetaSocial": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.meta-social"
-    },
     "SEO": {
       "type": "component",
       "repeatable": false,

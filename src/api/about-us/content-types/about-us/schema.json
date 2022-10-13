@@ -26,16 +26,6 @@
       },
       "component": "shared.seo"
     },
-    "MetaSocial": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.meta-social"
-    },
     "about_us_people": {
       "type": "relation",
       "relation": "oneToMany",
