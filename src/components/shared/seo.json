@@ -57,12 +57,6 @@
     "ogType": {
       "type": "string"
     },
-    "ogImgWidth": {
-      "type": "string"
-    },
-    "ogImgHeight": {
-      "type": "string"
-    },
     "twitterCard": {
       "type": "string"
     },
