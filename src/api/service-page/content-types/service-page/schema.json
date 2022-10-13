@@ -26,7 +26,7 @@
       "relation": "oneToMany",
       "target": "api::product.product"
     },
-    "metaSocial": {
+    "MetaSocial": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -36,7 +36,7 @@
       },
       "component": "shared.meta-social"
     },
-    "Seo": {
+    "SEO": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
