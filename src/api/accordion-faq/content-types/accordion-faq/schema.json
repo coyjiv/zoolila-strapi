@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "dropdown_options",
+  "collectionName": "accordion_faqs",
   "info": {
-    "singularName": "dropdown-option",
-    "pluralName": "dropdown-options",
-    "displayName": "dropdown-option",
-    "description": ""
+    "singularName": "accordion-faq",
+    "pluralName": "accordion-faqs",
+    "displayName": "AccordionFAQ"
   },
   "options": {
     "draftAndPublish": true
@@ -16,8 +15,16 @@
     }
   },
   "attributes": {
-    "dropdown": {
-      "displayName": "option",
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "ListItem": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -25,7 +32,7 @@
           "localized": true
         }
       },
-      "component": "data.option",
+      "component": "layout.heading",
       "required": true
     }
   }

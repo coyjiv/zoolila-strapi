@@ -11,11 +11,6 @@
       "type": "string",
       "required": true
     },
-    "dropdown_option": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::dropdown-option.dropdown-option"
-    },
     "validationText": {
       "type": "string"
     }

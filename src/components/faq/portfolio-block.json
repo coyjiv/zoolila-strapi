@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_faq_portfolio_blocks",
+  "info": {
+    "displayName": "PortfolioBlock",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "BlockImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_alts",
+  "info": {
+    "displayName": "alt",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    }
+  }
+}

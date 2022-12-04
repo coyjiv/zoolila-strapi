@@ -4,7 +4,8 @@
   "info": {
     "singularName": "review",
     "pluralName": "reviews",
-    "displayName": "Review"
+    "displayName": "Review",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "reviewGallery": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Linksocial": {
       "type": "string",
       "required": true
+    },
+    "alt": {
+      "type": "string"
     }
   }
 }

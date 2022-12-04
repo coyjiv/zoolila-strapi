@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_portfolio_blocks",
+  "info": {
+    "displayName": "PortfolioBlock",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
