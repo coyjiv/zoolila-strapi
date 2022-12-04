@@ -2,16 +2,26 @@
   "collectionName": "components_faq_portfolio_blocks",
   "info": {
     "displayName": "PortfolioBlock",
-    "icon": "camera"
+    "icon": "camera",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "BlockImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
 }

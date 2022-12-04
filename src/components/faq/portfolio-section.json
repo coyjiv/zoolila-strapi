@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_faq_portfolio_sections",
+  "info": {
+    "displayName": "PortfolioSection",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "PortfolioBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.portfolio-block",
+      "required": true
+    },
+    "SectionTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

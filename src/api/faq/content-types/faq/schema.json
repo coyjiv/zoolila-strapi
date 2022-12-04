@@ -36,11 +36,6 @@
       "type": "text",
       "required": true
     },
-    "accordion_faqs": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::accordion-faq.accordion-faq"
-    },
     "EndNotice": {
       "pluginOptions": {
         "i18n": {
@@ -48,18 +43,6 @@
         }
       },
       "type": "text",
-      "required": true
-    },
-    "PortfolioBlock": {
-      "displayName": "PortfolioBlock",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "layout.portfolio-block",
       "required": true
     },
     "CostDressMaking": {
@@ -99,6 +82,28 @@
         "layout.heading",
         "faq.accordion"
       ],
+      "required": true
+    },
+    "PortfolioSections": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "faq.portfolio-section",
+      "required": true
+    },
+    "SectionAccordion": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "faq.accordion",
       "required": true
     }
   }
