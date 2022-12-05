@@ -7,6 +7,13 @@
   },
   "options": {},
   "attributes": {
+    "blogPreview": {
+      "displayName": "post-small-preview",
+      "type": "component",
+      "repeatable": true,
+      "component": "posts.post-small-preview",
+      "required": true
+    },
     "title": {
       "type": "string",
       "default": "Корисні статті",

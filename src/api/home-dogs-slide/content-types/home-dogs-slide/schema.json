@@ -4,8 +4,7 @@
   "info": {
     "singularName": "home-dogs-slide",
     "pluralName": "home-dogs-slides",
-    "displayName": "home-dogs-slide",
-    "description": ""
+    "displayName": "home-dogs-slide"
   },
   "options": {
     "draftAndPublish": true
@@ -13,17 +12,12 @@
   "pluginOptions": {},
   "attributes": {
     "src": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
-    },
-    "alts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.alt"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     }
   }
 }
