@@ -21,6 +21,7 @@
     "cross-env": "^7.0.3",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-deepl": "^0.4.1",
     "strapi-plugin-import-export-entries": "^1.13.0",
     "strapi-plugin-todo": "^0.0.9",
     "strapi-stripe": "^2.5.1"
