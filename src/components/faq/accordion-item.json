@@ -2,16 +2,14 @@
   "collectionName": "components_faq_accordion_items",
   "info": {
     "displayName": "AccordionItem",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "itemName": {
       "type": "string",
       "required": false
-    },
-    "htmlContent": {
-      "type": "richtext"
     }
   }
 }
