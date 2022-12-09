@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "itemName": {
-      "type": "string",
+      "type": "text",
       "required": false
     }
   }
