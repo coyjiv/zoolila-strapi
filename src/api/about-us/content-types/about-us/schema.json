@@ -24,7 +24,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     },
     "about_us_people": {
       "type": "relation",
