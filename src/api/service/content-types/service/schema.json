@@ -46,14 +46,6 @@
       },
       "type": "text",
       "required": true
-    },
-    "alt": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
     }
   }
 }

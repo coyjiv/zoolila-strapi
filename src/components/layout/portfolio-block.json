@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "alt": {
-      "type": "string",
-      "required": true
-    },
     "img": {
       "type": "media",
       "multiple": false,
