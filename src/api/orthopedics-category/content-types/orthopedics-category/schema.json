@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orthopedics_categories",
+  "info": {
+    "singularName": "orthopedics-category",
+    "pluralName": "orthopedics-categories",
+    "displayName": "Orthopedics-category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "ItemTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "itemName": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "catalogue.orthopedics-category",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "important_notices",
+  "info": {
+    "singularName": "important-notice",
+    "pluralName": "important-notices",
+    "displayName": "ImportantNotice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "isPresent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "alertText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "maxLength": 305
+    }
+  }
+}
